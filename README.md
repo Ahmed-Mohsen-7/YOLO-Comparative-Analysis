@@ -65,4 +65,9 @@ ${ROOT}
 ## Disclaimer
 This project was contributed equally by me and  [Sohaila Ahmed](https://github.com/sohaila-ahmed3011) as part of Computer Vision course by Porf **Adil Khan** at Innopolis Univeristy (Spring 2022) .
 
+## References
+
+1. https://github.com/ghimiredhikura/Complex-YOLOv3
+2. https://github.com/packyan/PyTorch-YOLOv3-kitti
+3. https://github.com/maudzung/Complex-YOLOv4-Pytorch
 
