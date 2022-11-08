@@ -1,7 +1,7 @@
 # Comparative Analysis between YOLO 3 and YOLO Complex 
 
 
-This project performs comprativie analysis between YOLO Complex3 and YOLO Complex4. Two pre-trained models on Kitti dataset are utilized to detect three categories: pedestrians, cars, and bicycles.
+This project performs comprativie analysis between YOLO 3 and YOLO Complex versions 3 and 4. Two pre-trained models on Kitti dataset are utilized to detect three categories: pedestrians, cars, and bicycles.
 
 ## Motivation
 This comparative analysis is helpful in applications which require multiple sensors. For example, autonomous cars usually uses depth camera (2D) and LIDAR (3d) to percieve the surroundings. So the accuracy for the two sensors individually and combined should be high enough. Thus, this project combines between the LiDAR and camera sensors which ensures a backup to the object detection task, in case either of the two sensors is faulty.
