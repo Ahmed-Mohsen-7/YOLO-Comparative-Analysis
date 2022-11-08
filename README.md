@@ -42,6 +42,12 @@ A sample result for both models, the 2d bounding box (green color) is from YOLO 
 ![overview](./img/result1.png)
 ![overview](./img/result2.png)
 
+## Evaluation Metrics
+This table shows the average percision (AP) for the two complex models:
+| Model              | Car      | Pedestrian | Cyclist | Average |
+| -------------------|:-------- |:-----------|:--------|:--------|
+| Complex-YOLO-v3    | 0.98     |0.75        |0.75     |0.833    |
+| Complex-YOLO-v4    | 1        |0.86        |1        |0.95     |
 
 ## Folder structure
 
