@@ -4,7 +4,7 @@
 This project performs comprativie analysis between YOLO 3 and YOLO Complex versions 3 and 4. Two pre-trained models on Kitti dataset are utilized to detect three categories: pedestrians, cars, and bicycles.
 
 ## Motivation
-This comparative analysis is helpful in applications which require multiple sensors. For example, autonomous cars usually uses depth camera (2D) and LIDAR (3d) to percieve the surroundings. So the accuracy for the two sensors individually and combined should be high enough. Thus, this project combines between the LiDAR and camera sensors which ensures a backup to the object detection task, in case either of the two sensors is faulty.
+This comparative analysis is helpful in applications which require multiple sensors. For example, autonomous cars usually uses depth camera (2D) and LIDAR (3D) to percieve the surroundings. So the accuracy for the two sensors individually and combined should be high enough. Thus, this project combines between the LiDAR and camera sensors which ensures a backup to the object detection task, in case either of the two sensors is faulty.
  
 ## Dataset & Preprocessing
 KITTI dataset is used in this project. Due to its extreme large size, we only used a smaller portion of the dataset, which is uploaded on this drive [link](https://drive.google.com/u/0/uc?id=1E_rfrPgVLx7l8OwbnuLRkbVARRKtlv3u&export=download). The data are defined as follows:
@@ -16,12 +16,12 @@ KITTI dataset is used in this project. Due to its extreme large size, we only us
 | Label            | contains the ground truth bounding boxes and labels   |
 | Calibration      | contains transformations between LiDAR coordinates and camera coordinates   |
 
-As a preprocessing, all the 3d point clouds are converted into 2d bird eye view (BEV) images since YOLO model only deals with 2d images.
+As a preprocessing, all the 3D point clouds are converted into 2D bird eye view (BEV) images since YOLO model only deals with 2D images.
 
 
 
 ## Models   
-We used three  different models in this project. YOLO Complex3 and YOLO complex4 are used with point cloud while YOLO v3 are used with 2d images. The system desing is shown in the following image.
+We used three  different models in this project. YOLO Complex3 and YOLO complex4 are used with point cloud, while YOLO v3 is used with 2D images. The system design is shown in the following image.
 
 ![overview](/img/System_flow.png)
 
@@ -37,7 +37,7 @@ Since two different vesions used for YOLO Complex, the hyperparameters are diffe
 More technical details can be found in project report and presentation in the [documentation folder](./Docs/).
 
 ## Results
-A sample result for both models, the 2d bounding box (green color) is from YOLO 3 and the 3d bounding box (different colors) is from COmplex YOLO.
+A sample result for both models, the 2D bounding box (green color) is from YOLO 3 and the 3D bounding box (different colors) is from Complex YOLO.
 
 ![overview](./img/result1.png)
 ![overview](./img/result2.png)
