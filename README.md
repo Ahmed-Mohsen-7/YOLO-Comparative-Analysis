@@ -26,7 +26,7 @@ We used three  different models in this project. YOLO Complex3 and YOLO complex4
 ![overview](/img/System_flow.png)
 
 Since two different vesions used for YOLO Complex, the hyperparameters are different and are summarized in this table:
-|                    | YOLO V3  | YOLO V3    
+|                    | YOLO V3  | YOLO V4    
 | -------------------|:-------- |:-----------
 | Image size         | 608 x 608 x 3     |608 x 608 x 3      
 | Convolution Layers | 106               |110        
